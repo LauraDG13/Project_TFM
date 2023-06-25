@@ -91,7 +91,7 @@ for i, row in dftxt0.iteritems():
     context=[]
 
     try:
-        precontext = return_context(text1, "vaya", "label", 20)
+        precontext = return_context(text1, "vaya", "label", 7)
         for example in precontext:
             contextinner=[]
             for line in example:
