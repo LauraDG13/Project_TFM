@@ -16,15 +16,15 @@ from operator import add
 #Creation of a list of objects with the key 'letter' (the first letter of each file to split),
 #the key 'counter' (a counter dedicated for each objet) and the key 'path' (the path of the file to split)
 corpuslist = [{'letter': 'A',
-               'path': '/Users/lauradegrazia/01_MTAL/TFM/tfm_diachrony-main/oldes_tagged/AA/'},
+               'path': '/.oldes_tagged/AA/'},
               {'letter': 'B',
-               'path': '/Users/lauradegrazia/01_MTAL/TFM/tfm_diachrony-main/oldes_tagged/BB/'},
+               'path': '/./oldes_tagged/BB/'},
               {'letter': 'C',
-               'path': '/Users/lauradegrazia/01_MTAL/TFM/tfm_diachrony-main/oldes_tagged/CC/'},
+               'path': '/oldes_tagged/CC/'},
               {'letter': 'D',
-               'path': '/Users/lauradegrazia/01_MTAL/TFM/tfm_diachrony-main/oldes_tagged/DD/'},
+               'path': '/oldes_tagged/DD/'},
               {'letter': 'E',
-               'path': '/Users/lauradegrazia/01_MTAL/TFM/tfm_diachrony-main/oldes_tagged/EE/'}]
+               'path': '/oldes_tagged/EE/'}]
 
 
 #We create empty lists with each attribute of the metadata
