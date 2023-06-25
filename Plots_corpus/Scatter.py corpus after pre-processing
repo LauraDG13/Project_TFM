@@ -1,0 +1,36 @@
+import os
+import pandas as pd
+from bs4 import BeautifulSoup as BS
+import math
+import numpy as np
+import matplotlib.pyplot as plt
+from collections import defaultdict
+import seaborn as sns
+sns.set()
+
+
+df = pd.read_json('/dataframe.json', orient ='split', compression = 'infer')
+
+plt.figure(figsize=(15,10))
+
+#Create scatter plot
+sns.scatterplot(x = df["Date"], y = df["Ntokens"],
+                sizes=(1000,1120),
+                palette = "orange")
+           
+
+plt.xlabel('Centuries', fontsize = 30)
+# Set y-axis label
+plt.ylabel('Number of tokens', fontsize = 30)
+
+
+plt.xticks(fontsize=30, rotation=45)
+plt.yticks(fontsize=30)
+
+plt.savefig("corpus_plot_after_prep.pdf", format="pdf", bbox_inches="tight")
+
+plt.show()
+
+
+
+
