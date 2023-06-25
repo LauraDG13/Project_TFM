@@ -9,7 +9,7 @@ import seaborn as sns
 sns.set()
 
 
-df = pd.read_json('/dataframe.json', orient ='split', compression = 'infer')
+df = pd.read_json('./dataframe.json', orient ='split', compression = 'infer')
 
 plt.figure(figsize=(15,10))
 
