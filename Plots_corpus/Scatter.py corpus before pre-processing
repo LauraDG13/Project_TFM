@@ -10,23 +10,18 @@ sns.set()
 
 
 #We read as a dataframe the .csv file obtained with the extraction of the metadata
-df = pd.read_csv('/Users/lauradegrazia/01_MTAL/TFM/tfm_diachrony-main/output_tables_with_texts.csv')
-
-
-
+df = pd.read_csv('./output_tables_with_texts.csv')
 
 plt.figure(figsize=(15,10))
 
 
-# Create catter plot
+# Create scatter plot
 sns.scatterplot(x = df["Date"], y = df["Ntokens"],
                 sizes=(1000,1120),
                 palette = "orange")
-           
-# Give title
-#plt.title('Distribution of the texts in the corpus', fontsize=30)
 
 plt.xlabel('Centuries', fontsize = 30)
+
 # Set y-axis label
 plt.ylabel('Number of tokens', fontsize = 30)
 
