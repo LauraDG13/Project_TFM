@@ -15,12 +15,17 @@
 we obtained a barchart of the distribution of the genre of the texts for each century.
 - In the script Barchart corpus after pre-processing.py we we obtained a barchart of the distribution of the text per bin of 50 years. In the x axis there are the intervals of 50 years and in y axis the number of tokens
 
-------------------------------------- FOLDER *plot corpus* -------------------------------------
+------------------------------------- FOLDER *frequency study* -------------------------------------
 
 - In the script Line plot chronological evolution of vaya.py we obtained a plot of the normalized frequency of "vaya" Since the typical number of total items is of the order of the million, we express the relative frequency as the number of occurrences per million, obtained by multiplying the relative frequency by one million
 - In the script Relative frequency of verbs.py we computed the relative frequency of verbs from the 12th to 16th centuries and we converted the results into a .csv file. The we extracted by hands five verbs with the frequency closest to that of "vaya"
 - In the script Comparison between vaya and and the present subjunctive of ir.py we we plotted the comparison between the frequency of vaya to the verbal form of present subjunctive of ir
 - In the script Comparison of the relative frequency.py we plotted the comparison between the frequency of "vaya" to five verbs with the frequency closest ot that of "vaya"
+
+  ------------------------------------- FOLDER *context study* -------------------------------------
+
+  
+
 
 
 
