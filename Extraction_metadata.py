@@ -62,7 +62,7 @@ for path in corpuspaths:
         translations.append(elem[0]['translation'])
         collections.append(elem[0]['collection'])
         tokens = []
-        types = []
+     
         
         #We separate the content of the label
         text = elem[0].text.split()
@@ -72,15 +72,14 @@ for path in corpuspaths:
         #We create a loop that iterates through every 2 elements and store them in separate lists
         while i != 0:
             tokens.append(text[0])
-            types.append(text[1])
             #We delete the items that have just been stored and the item that corresponds to the label
             del text[0:3]
             #We reassign the variable 'i' to adjust to the new length of the text
             i = len(text)
         
-        #We add the tokens and types of the current file to the empty lists created above
+        #We add the tokens of the current file to the empty lists created above
         all_tokens.append(tokens)
-        all_types.append(types)
+       
         
         #OPTIONAL: The script prints the file that has just been analized as a control measure
         print(f'File {file} done')
@@ -109,8 +108,7 @@ df = pd.DataFrame({ 'File': all_files,
                     'ID': ids,
                     'Translation': translations,
                     'Collection': collections,
-                    'N_Tokens': [len(text) for text in all_tokens],
-                    'N_Types': [len(set(text)) for text in all_types]})
+                    'N_Tokens': [len(text) for text in all_tokens]})
 
 #We save the dataframe into a CSV file
 df.to_csv('./corpus/metadata.csv', index=False)
