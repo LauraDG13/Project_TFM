@@ -26,6 +26,7 @@ we obtained a barchart of the distribution of the genre of the texts for each ce
 
   - In the script Extraction of the context.py we obtained the contexts of each apperance of "vaya"
   - In the script Extraction of interjection and presentational construction.py we contexts of "vaya" used as an interjection and in the presentation construction (vaya + DP/NP)
+  - In the script Relative frequency of the contexts.py we obtained the frequency of "vaya" used as an interjection and in the presentation construction (vaya + DP/NP)
 
   
 
