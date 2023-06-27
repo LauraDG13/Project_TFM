@@ -21,13 +21,13 @@
 - In the script Comparison between vaya and the present subjunctive of ir.py, we plotted the comparison between the frequency of vaya to the verbal form of the present subjunctive of ir
 - In the script Comparison of the relative frequency.py, we plotted the comparison between the frequency of "vaya" to five verbs with the frequency closest to that of "vaya"
 
-  ------------------------------------- FOLDER *context study* -------------------------------------
+------------------------------------- FOLDER *context study* -------------------------------------
 
   - In the script Extraction of the context.py, we obtained the contexts of each appearance of "vaya"
   - In the script Extraction of interjection and presentational construction.py, we obtained the contexts of "vaya" used as an interjection and in the presentation construction (vaya + DP/NP)
   - In the script Relative frequency of the contexts.py, we obtained the frequency of "vaya" used as an interjection and in the presentation construction (vaya + DP/NP)
- 
-    ------------------------------------- FOLDER *random sampling* -------------------------------------
+
+------------------------------------- FOLDER *random sampling* -------------------------------------
 
   - To validate the frequency analysis from the plots (FOLDER *frequency study*), we repeat the analysis, randomly selecting sub-samples from the corpus. In particular, we randomly select 1000000 tokens for every bin – without replacement, meaning that each random token is taken at most once, and if there are less than 1000000 tokens, we take them all 
 
