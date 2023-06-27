@@ -3,7 +3,7 @@
 ------------------------------------- File *pre-processing.py* -------------------------------------
 
 - We obtained a dataframe in which each column contains information for every text (Title, Author, Century, Genre, ID, Translation, Collection, Number of tokens) using Beautiful Soup
-- We converted it into a .csv file
+- We converted it into a .csv file (metadata.xlsx)
 - After extracting the metadata, we observed that some documents were duplicated. We decided to keep only the text with the highest number of tokens of the oldest edition. This procedure allowed us to preserve only the texts with the most representative corpus information
 - After eliminating the duplicates, we saved the new dataframe into a .json file because it allows us to spend less computational cost in terms of time
 
