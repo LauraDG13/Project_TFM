@@ -1,5 +1,7 @@
 # Project_TFM
 
+The repository Project_TFM contains the scripts used for developing my final thesis, "The grammaticalization path of 'vaya': a computational approach", for the Master in Theoretical and Applied Linguistics (edition 2022/2023)
+
 ------------------------------------- File *pre-processing.py* -------------------------------------
 
 - We obtained a dataframe in which each column contains information for every text (Title, Author, Century, Genre, ID, Translation, Collection, Number of tokens) using Beautiful Soup
