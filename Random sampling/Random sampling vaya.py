@@ -15,7 +15,7 @@ import seaborn as sns
 
 
 
-df_filtered = pd.read_json('/Users/lauradegrazia/01_MTAL/TFM/tfm_diachrony-main/verbs/dataset6.json', orient ='split', compression = 'infer')
+df_filtered = pd.read_json('./dataset.json', orient ='split', compression = 'infer')
 
 
 #We save the years of the texts in a list called 'dates'
