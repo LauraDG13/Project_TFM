@@ -1,6 +1,7 @@
 # Project_TFM
 
-The repository Project_TFM contains the scripts used for developing my final thesis, "The grammaticalization path of 'vaya': a computational approach", for the Master in Theoretical and Applied Linguistics (edition 2022/2023)
+This repository contains the scripts used for developing my final thesis, "The grammaticalization path of 'vaya': a computational approach", for the Master in Theoretical and Applied Linguistics (edition 2022/2023). The motivation of the study is to contribute to the quantitative study of grammaticalization in Spanish, focusing on the verbal form "vaya" (lit. go). Currently, "vaya" is used as a form of the movement verb "it" (to go) and as a verbal discourse marker. The current uses of "vaya" are the results of a historical process. Our work wants to examine under
+what conditions started the shift from lexical meaning and how vaya acquired its grammaticalized meanings across time. To reach this goal, we analyze the increase of the frequency and the spread to multiple contexts with respect to the original use. The study demonstrates that frequency increase is an essential indicator of the grammaticalization of "vaya". 
 
 ------------------------------------- File *pre-processing.py* -------------------------------------
 
